@@ -16,6 +16,11 @@ public class ItemClass {
     private int itemtype;
     private boolean consumable;
     private int rarity;
+    private int NumGems;
+
+    public int getNumGems() { return NumGems; }
+
+    public void setNumGems(int numGems) { NumGems = numGems; }
 
     public int getRarity() {
         return rarity;

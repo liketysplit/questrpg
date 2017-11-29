@@ -19,6 +19,7 @@ public class ItemCreator {
     private int itemtype;
     private boolean consumable;
     private int rarity;
+    private int NumGems;
 
 
     public static void main(String args[]) throws Exception {
@@ -59,6 +60,8 @@ public class ItemCreator {
             System.out.println("Enter in item type: ");
             writer.println(scan.nextLine());
             System.out.println("Enter in item rarity: ");
+            writer.println(scan.nextLine());
+            System.out.println("Enter in items number of gem slots");
             writer.println(scan.nextLine());
             System.out.println("Is it stackable? (true or false): ");
             writer.println(scan.nextLine());
